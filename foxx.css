@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zen+Dots&display=swap');  /* all boby*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Satisfy&family=Zen+Dots&display=swap'); /* claa a*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+    color: #D6DBDF;
+    background-color: #2C3E50;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("photo_2021-05-02_01-53-36.jpg");
+    background-size: cover;
+}
+.Defenition {
+    height:100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+.Defenition h3 {
+    font-family: 'Righteous', cursive;
+    text-shadow: 3px 4px 6px #3498db;
+    font-size: 35px;
+}
+
+.parent-slider {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.slider{
+    box-shadow: 5px 7px 15px black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+  .h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 3px 4px 6px black;
+  }
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.allII h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Righteous', cursive;
+    text-shadow: 3px 4px 6px #3498db;
+    font-size: 40px;
+}
+
+/*.input {
+    display: inline-block;
+    width: 50px;
+    color:#D6DBDF;
+    background-color: #1C2833;
+    margin: 10px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}*/
+
+.Information , .box{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: 4px 5px 9px #3498db;
+    padding: 0 30px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  50px 60px;
+    cursor: pointer;
+    background-color: #D6DBDF;
+    color: #212F3D;
+}
+span {
+    color:#3498db;
+    text-shadow: 3px 4px 6px black;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 600px;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 120px;
+    cursor: auto;
+}
+.input input {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 25px;
+    font-size: 25px;
+    color:#3498db;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    position:relative;
+    overflow: hidden;
+    box-shadow: 2px 4px 6px #85C1E9 ;
+}
+ .input input :hover {
+    color:#212F3D;;
+}
+.input input ::before {
+    content: "";
+    position: absolute;
+    left:0;
+    top:0;
+    border-radius: 0 0 50% 50%;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+.input input:hover::before{
+    height: 180%;
+}
+.Information h2 {
+    margin: 0 10px 35px;
+}
+.Information :hover {
+    animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    99%{
+        transform: translateY(-4px);
+    }
+}
+.filmI h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-shadow: 3px 4px 6px #3498db;
+    letter-spacing: 6px;
+    word-spacing: 9px;
+}
+.films {
+    margin-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+  margin: 50px 30px;
+  display: inline-block;
+  color:#212F3D;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.card-title{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    height: 100px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #17202A;
+}
+footer img{
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+     border:3px solid aliceblue;
+     box-shadow: 2px 2px 13px aliceblue;;
+ }
+ footer img:hover{
+     transform:scale(1.1);
+ }
+ footer p{
+     display: inline-block;
+ }
+/*
+.parent {
+    height: 100%;
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.box2 :hover {
+    transform: rotateY(-180deg);
+}
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+    backface-visibility: hidden;
+}
+.front {
+    background-color: red;
+}
+.back {
+    background-color: green;
+    transform: rotateY(180deg);
+} 
+*/
